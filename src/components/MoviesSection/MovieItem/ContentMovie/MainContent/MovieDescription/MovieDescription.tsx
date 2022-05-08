@@ -1,5 +1,5 @@
 import React from "react";
-import "./MovieDescription.scss"
+import style from "./MovieDescription.module.scss";
 
 interface IProps{
   description: string;
@@ -7,7 +7,7 @@ interface IProps{
 
 const MovieDescription : React.VFC<IProps> = ({ description }) => {
   return (
-    <p className="movie-description">{description}</p>
+    <p className={style.movieDescription}>{description}</p>
   )
 }
 

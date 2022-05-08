@@ -55,6 +55,7 @@
     ]
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.21.0"
+    "@typescript-eslint/eslint-plugin": "^5.21.0",
+    "typescript-plugin-css-modules": "^3.4.0"
   }
 }

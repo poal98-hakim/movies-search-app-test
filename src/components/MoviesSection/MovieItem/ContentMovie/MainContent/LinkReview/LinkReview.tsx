@@ -1,6 +1,6 @@
 import React from "react";
-import { ILink } from "../../../../../../models/Movie";
-import "./LinkReview.scss";
+import { ILink } from "models/Movie";
+import style from "./LinkReview.module.scss";
 
 interface IProps{
   link: ILink;
@@ -9,7 +9,7 @@ interface IProps{
 const LinkReview : React.VFC<IProps> = ({ link }) => {
   const {url, suggested_link_text} = link;
   return (
-    <a className="subtitle" href={url} target="_blank" rel="noreferrer">{suggested_link_text}</a>
+    <a className={style.subtitle} href={url} target="_blank" rel="noreferrer">{suggested_link_text}</a>
   )
 }
 

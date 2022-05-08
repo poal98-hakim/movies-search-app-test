@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import './App.scss';
 import { IMovie } from './models/Movie';
 import SearchSection from './components/SearchSection/SearchSection';
 import MoviesSection from './components/MoviesSection/MoviesSection';
@@ -7,6 +6,9 @@ import MainContext from './contexts/MainContext';
 import useDidMountEffect from './hooks/useDidMountEffect';
 import { getAPIError } from './api/utils/methods';
 import MoviesAPI from './api/movies';
+import style from './App.module.scss';
+import styleGeneral from "scss/style.module.scss";
+
 
 const App: React.VFC = () => {
 
@@ -53,7 +55,7 @@ const App: React.VFC = () => {
       return <MoviesSection movies={movies} hasMore={hasMore} isLoading={isLoading} />;
     }
     else if(totalResults === 0){
-      return <div className="no-results-wrapper flex f-justify-center f-align-center">No Results</div>
+      return <div className={`${style.noResultsWrapper} ${styleGeneral.flex} ${styleGeneral.fJusCenter} ${styleGeneral.fAliCenter}`}>No Results</div>
     }
     return null;
   }
@@ -61,10 +63,10 @@ const App: React.VFC = () => {
   return (
     <MainContext.Provider value={{search, apiKey, page, setSearch, setApiKey, setPage}}>
       <main>
-        <div className="wrapper-filter">
+        <div className={style.wrapperFilter}>
           <SearchSection onSearch={(keyword, apiKey) => searchMovies(keyword, apiKey)} totalResults={totalResults} error={error} />
         </div>
-        <div className="flex f-justify-center">
+        <div className={`${styleGeneral.flex} ${styleGeneral.fJusCenter}`}>
           {result()}
         </div>
       </main>

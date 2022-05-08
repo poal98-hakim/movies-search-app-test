@@ -1,6 +1,6 @@
 
 
-.movie-item-wrapper{
+.movieItemWrapper{
     display: flex;
     position: relative;
     background-color: black;
@@ -13,7 +13,7 @@
     }
 }
 
-.left-cont{
+.leftCont{
     display: flex;
     align-items: center;
     width: 30%;
@@ -22,7 +22,7 @@
     }
 }
 
-.right-cont{
+.rightCont{
     display: flex;
     flex-direction: column;
     justify-content: space-between;

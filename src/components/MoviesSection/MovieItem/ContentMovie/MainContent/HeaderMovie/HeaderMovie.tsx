@@ -1,5 +1,5 @@
 import React from "react";
-import "./HeaderMovie.scss";
+import style from "./HeaderMovie.module.scss";
 
 interface IProps{
   title: string;
@@ -9,7 +9,7 @@ interface IProps{
 const HeaderMovie : React.VFC<IProps> = ({ title, rating }) => {
   return (
     <header>
-      <h1 className="movie-title">{title}</h1>
+      <h1 className={style.movieTitle}>{title}</h1>
     </header>
   )
 }

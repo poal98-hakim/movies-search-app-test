@@ -1,5 +1,5 @@
 import React from "react";
-import "./DateMovie.scss"
+import style from "./DateMovie.module.scss"
 import moment from "moment";
 
 interface IProps{
@@ -8,7 +8,7 @@ interface IProps{
 
 const DateMovie : React.VFC<IProps> = ({ date }) => {
   return (
-    <span className="date-movie" data-testid="date-movie">{moment(date).format('LL')}</span>
+    <span className={style.dateMovie} data-testid="date-movie">{moment(date).format('LL')}</span>
   )
 }
 

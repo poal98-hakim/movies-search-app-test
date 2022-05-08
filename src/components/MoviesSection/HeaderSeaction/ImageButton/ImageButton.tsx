@@ -1,5 +1,5 @@
 import React from "react";
-import "./ImageButton.scss"
+import style from "./ImageButton.module.scss"
 
 interface IProps{
   icon: {src: string, alt: string};
@@ -9,7 +9,7 @@ interface IProps{
 
 const ImageButton : React.VFC<IProps> = ({ icon: {src, alt}, onClick, disabled }) => {
   return (
-    <button className="image-button" onClick={onClick} disabled={disabled}>
+    <button className={style.imageButton} onClick={onClick} disabled={disabled}>
         <img 
             src={src} 
             alt={alt} 

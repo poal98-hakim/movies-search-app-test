@@ -1,6 +1,6 @@
 import React from "react";
-import "./Spinner.scss";
+import style from "./Spinner.module.scss";
 
-const Spinner : React.VFC = () => <div className="loader" data-testid="loader"></div>;
+const Spinner : React.VFC = () => <div className={style.loader} data-testid="loader"></div>;
 
 export default Spinner;

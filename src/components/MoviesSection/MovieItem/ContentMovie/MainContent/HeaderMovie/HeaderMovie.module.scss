@@ -1,0 +1,17 @@
+@use '../../../../../../scss/abstracts/colors';
+@use '../../../../../../scss/abstracts/mixins';
+
+.movieTitle{
+  font-size: 1.5em;
+  font-weight: 900;
+  max-width: 18em;
+  margin: 0;
+  line-height: .8;
+  padding-bottom: 8px;
+  @include mixins.ellipses;
+  @media only screen and (max-width: 700px) {
+    font-size: 1em;
+    max-width: 10em;
+  }
+}
+  

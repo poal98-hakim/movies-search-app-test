@@ -1,9 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.scss';
-//  better practice to import these two here and not using the @import scss key because it will be deprecated
-import "./scss/flex.scss";
-import "./scss/styles.scss";
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 

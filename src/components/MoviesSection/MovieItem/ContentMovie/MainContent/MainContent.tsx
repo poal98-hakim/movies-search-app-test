@@ -1,5 +1,5 @@
 import React from "react";
-import { IMovie } from "../../../../../models/Movie";
+import { IMovie } from "models/Movie";
 import HeaderMovie from "./HeaderMovie/HeaderMovie";
 import LinkReview from "./LinkReview/LinkReview";
 import MovieDescription from "./MovieDescription/MovieDescription";

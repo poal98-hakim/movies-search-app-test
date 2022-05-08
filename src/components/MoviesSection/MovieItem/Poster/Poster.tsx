@@ -1,6 +1,7 @@
 import React from "react";
 import { IMultimedia } from "../../../../models/Movie";
-import "./Poster.scss";
+import style from "./Poster.module.scss";
+import styleGeneral from "scss/style.module.scss";
 
 interface IProps{
   multimedia: IMultimedia;
@@ -9,7 +10,7 @@ interface IProps{
 const Poster : React.VFC<IProps> = ({ multimedia }) => {
   const { src } = multimedia || {};
   return (
-    <img className="poster full-width" src={src} alt="poster" />
+    <img className={`${style.poster} ${styleGeneral.fullWidth}`} src={src} alt="poster" />
   )
 }
 

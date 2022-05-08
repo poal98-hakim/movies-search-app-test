@@ -2,30 +2,30 @@
     display: flex;
 }
 
-.f-direction-column{
+.fDirColumn{
     flex-direction: column;
 }
 
-.f-direction-row{
+.fDirRow{
     flex-direction: row;
 }
 
-.f-justify-between{
+.fJusBetween{
     justify-content: space-between;
 }
 
-.f-justify-center{
+.fJusCenter{
     justify-content: center;
 }
 
-.f-justify-end{
+.fJusEnd{
     justify-content: flex-end;
 }
 
-.f-justify-around{
+.fJusAround{
     justify-content: space-around;
 }
 
-.f-align-center{
+.fAliCenter{
     align-items: center;
 }

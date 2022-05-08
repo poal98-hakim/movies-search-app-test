@@ -1,6 +1,6 @@
-@use '../../../../../../scss/base/colors';
+@use '../../../../../../scss/abstracts/colors';
 
-.date-movie{
+.dateMovie{
     display: block;
     color: colors.$PRIMARY_COLOR;
     opacity: .4;

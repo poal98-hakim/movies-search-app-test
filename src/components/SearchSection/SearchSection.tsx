@@ -2,9 +2,10 @@ import React, { useContext, useState } from "react";
 import SearchIcon from "../../images/search-icon-yellow.png";
 import KeyIcon from "../../images/key-icon.png";
 import SearchBar from "./SearchBar/SearchBar";
-import "./SearchSection.scss";
 import MainContext from "../../contexts/MainContext";
 import Search from "./Search/Search";
+import style from "./SearchSection.module.scss";
+import styleGeneral from "scss/style.module.scss";
 
 interface IProps{
   onSearch: (search: string, apiKey: string) => void;
@@ -17,16 +18,16 @@ const SearchSection : React.VFC<IProps> = ({ onSearch, totalResults, error }) =>
 
   const validate = () => {
     if(!isValidated) {
-      return <span className="error-validation">Please fill in all fields!</span>
+      return <span className={style.errorValidation}>Please fill in all fields!</span>
     }
     if(error){
-      return <span className="error-validation">{error}</span>
+      return <span className={style.errorValidation}>{error}</span>
     }
     return null;
   }
 
   return (
-    <form className="form-search flex f-direction-column f-align-center" onSubmit={event => {
+    <form className={`${styleGeneral.flex} ${styleGeneral.fDirColumn} ${styleGeneral.fAliCenter}`} onSubmit={event => {
         event.preventDefault();
         if(!search || !apiKey){
             setIsValidated(false);

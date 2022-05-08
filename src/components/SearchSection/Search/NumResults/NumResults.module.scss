@@ -1,6 +1,6 @@
-@use '../../../../scss/base/colors';
+@use '../../../../scss/abstracts/colors';
 
-.num-results-movies{
+.numResultsMovies{
     display: block;
     font-size: .8em;
     color: colors.$PRIMARY_COLOR;

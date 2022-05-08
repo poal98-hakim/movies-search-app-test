@@ -1,5 +1,6 @@
 import React from "react";
-import "./SearchBar.scss";
+import style from "./SearchBar.module.scss";
+import styleGeneral from "scss/style.module.scss";
 
 interface IProps{
   icon: {src: string, alt: string};
@@ -10,7 +11,7 @@ interface IProps{
 }
 const SearchBar : React.VFC<IProps> = ({ icon, placeholder, onChange, type, value }) => {
   return (
-    <div className="search-bar-wrapper flex f-align-center f-justify-center" data-testid="search-bar">
+    <div className={`${style.searchBarWrapper} ${styleGeneral.flex} ${styleGeneral.fAliCenter} ${styleGeneral.fJusCenter}`} data-testid="search-bar">
       <img src={icon.src} alt={icon.alt} width="25" />
       <input type={type} value={value} onChange={e => onChange(e.target.value)} placeholder={placeholder} />
     </div>
