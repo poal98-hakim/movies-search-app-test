@@ -16,12 +16,12 @@ const HeaderSection : React.VFC<IProps> = ({ hasMore }) => {
     <div className={`${stylesGeneral.flex} ${stylesGeneral.fJusEnd}`}>
         <ImageButton 
             icon={{src: LeftArrowIcon, alt: "left-arrow"}} 
-            onClick={() => setPage(page => page-1)} 
+            onClick={() => setPage(page => page - 20)} 
             disabled={page ? false : true}
             />
         <ImageButton 
             icon={{src: RightArrowIcon, alt: "right-arrow" }} 
-            onClick={() => setPage(page => page+1)} 
+            onClick={() => setPage(page => page + 20)} 
             disabled={!hasMore}
             />
     </div>
