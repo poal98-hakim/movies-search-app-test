@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Poster renders correctly 1`] = `
+<body>
+  <div>
+    <img
+      alt="poster"
+      class="poster full-width"
+      src="https://static01.nyt.com/images/2022/03/24/arts/24everything-everywhere/merlin_204080367_730f3977-a2fa-425e-98db-01be8fecac21-mediumThreeByTwo440.jpg"
+    />
+  </div>
+  <div>
+    <img
+      alt="poster"
+      class="poster full-width"
+      src="https://static01.nyt.com/images/2022/03/24/arts/24everything-everywhere/merlin_204080367_730f3977-a2fa-425e-98db-01be8fecac21-mediumThreeByTwo440.jpg"
+    />
+  </div>
+</body>
+`;

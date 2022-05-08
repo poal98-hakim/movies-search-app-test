@@ -1,0 +1,118 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchSection renders correctly 1`] = `
+<body>
+  <div>
+    <form
+      class="form-search flex f-direction-column f-align-center"
+    >
+      <div
+        class="search-bar-wrapper flex f-align-center f-justify-center"
+        data-testid="search-bar"
+      >
+        <img
+          alt="icon-search"
+          src="search-icon-yellow.png"
+          width="25"
+        />
+        <input
+          placeholder="Search*"
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        class="search-bar-wrapper flex f-align-center f-justify-center"
+        data-testid="search-bar"
+      >
+        <img
+          alt="icon-key"
+          src="key-icon.png"
+          width="25"
+        />
+        <input
+          placeholder="Api Key*"
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        class="flex f-align-center"
+      >
+        <input
+          class="button"
+          type="submit"
+          value="Search"
+        />
+        <span
+          class="num-results-movies"
+        >
+          5
+           results
+        </span>
+      </div>
+      <span
+        class="error-validation"
+      >
+        Invalid key
+      </span>
+    </form>
+  </div>
+  <div>
+    <form
+      class="form-search flex f-direction-column f-align-center"
+    >
+      <div
+        class="search-bar-wrapper flex f-align-center f-justify-center"
+        data-testid="search-bar"
+      >
+        <img
+          alt="icon-search"
+          src="search-icon-yellow.png"
+          width="25"
+        />
+        <input
+          placeholder="Search*"
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        class="search-bar-wrapper flex f-align-center f-justify-center"
+        data-testid="search-bar"
+      >
+        <img
+          alt="icon-key"
+          src="key-icon.png"
+          width="25"
+        />
+        <input
+          placeholder="Api Key*"
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        class="flex f-align-center"
+      >
+        <input
+          class="button"
+          type="submit"
+          value="Search"
+        />
+        <span
+          class="num-results-movies"
+        >
+          5
+           results
+        </span>
+      </div>
+      <span
+        class="error-validation"
+      >
+        Invalid key
+      </span>
+    </form>
+  </div>
+</body>
+`;

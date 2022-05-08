@@ -1,0 +1,18 @@
+.movie-description {
+    font-size: .8em;
+    overflow: hidden;
+    max-height: 10em;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 6;
+
+    @media only screen and (max-width: 1100px) {
+        font-size: .8em;
+        max-height: 4em;
+        -webkit-line-clamp: 4;
+        @media only screen and (max-width: 900px) {
+            -webkit-line-clamp: 2;
+            margin: 0 0;
+        }
+    }
+}

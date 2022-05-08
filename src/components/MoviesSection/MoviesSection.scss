@@ -1,0 +1,9 @@
+.movie-section{
+    width: 70em;
+    @media only screen and (max-width: 1120px) {
+        padding: 0 20px;
+    }
+    @media only screen and (max-width: 600px) {
+        padding: 0 10px;
+    }
+}

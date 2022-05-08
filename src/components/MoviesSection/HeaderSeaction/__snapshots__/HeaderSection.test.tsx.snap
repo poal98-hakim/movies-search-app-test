@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeaderSection renders correctly 1`] = `
+<body>
+  <div>
+    <div
+      class="flex f-justify-end"
+    >
+      <button
+        class="image-button"
+        disabled=""
+      >
+        <img
+          alt="left-arrow"
+          src="left-arrow.png"
+          width="25"
+        />
+      </button>
+      <button
+        class="image-button"
+      >
+        <img
+          alt="right-arrow"
+          src="right-arrow.png"
+          width="25"
+        />
+      </button>
+    </div>
+  </div>
+  <div>
+    <div
+      class="flex f-justify-end"
+    >
+      <button
+        class="image-button"
+        disabled=""
+      >
+        <img
+          alt="left-arrow"
+          src="left-arrow.png"
+          width="25"
+        />
+      </button>
+      <button
+        class="image-button"
+      >
+        <img
+          alt="right-arrow"
+          src="right-arrow.png"
+          width="25"
+        />
+      </button>
+    </div>
+  </div>
+</body>
+`;

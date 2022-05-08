@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MainContent renders correctly 1`] = `
+<body>
+  <div>
+    <div>
+      <header>
+        <h1
+          class="movie-title"
+        >
+          Everything Everywhere All at Once
+        </h1>
+      </header>
+      <a
+        class="subtitle"
+        href="https://www.nytimes.com/2022/03/24/movies/everything-everywhere-all-at-once-review.html"
+        rel="noreferrer"
+        target="_blank"
+      >
+        Read the New York Times Review of Everything Everywhere All at Once
+      </a>
+      <p
+        class="movie-description"
+      >
+        Michelle Yeoh stars as a stressed-out laundromat owner dragged into cosmic battle and genre chaos.
+      </p>
+    </div>
+  </div>
+  <div>
+    <div>
+      <header>
+        <h1
+          class="movie-title"
+        >
+          Everything Everywhere All at Once
+        </h1>
+      </header>
+      <a
+        class="subtitle"
+        href="https://www.nytimes.com/2022/03/24/movies/everything-everywhere-all-at-once-review.html"
+        rel="noreferrer"
+        target="_blank"
+      >
+        Read the New York Times Review of Everything Everywhere All at Once
+      </a>
+      <p
+        class="movie-description"
+      >
+        Michelle Yeoh stars as a stressed-out laundromat owner dragged into cosmic battle and genre chaos.
+      </p>
+    </div>
+  </div>
+</body>
+`;

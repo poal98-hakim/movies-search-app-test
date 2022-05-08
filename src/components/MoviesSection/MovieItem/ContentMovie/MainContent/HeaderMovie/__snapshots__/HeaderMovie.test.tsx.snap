@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeaderMovie renders correctly 1`] = `
+<body>
+  <div>
+    <header>
+      <h1
+        class="movie-title"
+      >
+        Everything Everywhere All at Once
+      </h1>
+    </header>
+  </div>
+  <div>
+    <header>
+      <h1
+        class="movie-title"
+      >
+        Everything Everywhere All at Once
+      </h1>
+    </header>
+  </div>
+</body>
+`;

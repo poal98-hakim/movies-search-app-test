@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DateMovie renders correctly 1`] = `
+<body>
+  <div>
+    <span
+      class="date-movie"
+      data-testid="date-movie"
+    >
+      March 24, 2022
+    </span>
+  </div>
+  <div>
+    <span
+      class="date-movie"
+      data-testid="date-movie"
+    >
+      March 24, 2022
+    </span>
+  </div>
+</body>
+`;

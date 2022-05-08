@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FooterContent renders correctly 1`] = `
+<body>
+  <div>
+    <footer>
+      <span
+        class="date-movie"
+        data-testid="date-movie"
+      >
+        March 24, 2022
+      </span>
+    </footer>
+  </div>
+  <div>
+    <footer>
+      <span
+        class="date-movie"
+        data-testid="date-movie"
+      >
+        March 24, 2022
+      </span>
+    </footer>
+  </div>
+</body>
+`;

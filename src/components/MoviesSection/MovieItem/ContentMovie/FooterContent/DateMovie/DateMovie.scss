@@ -1,0 +1,9 @@
+@use '../../../../../../scss/base/colors';
+
+.date-movie{
+    display: block;
+    color: colors.$PRIMARY_COLOR;
+    opacity: .4;
+    font-size: .8em;
+    line-height: .8;
+}

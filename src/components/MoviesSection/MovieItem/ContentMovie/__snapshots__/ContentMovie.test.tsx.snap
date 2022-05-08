@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContentMovie renders correctly 1`] = `
+<body>
+  <div>
+    <section
+      class="flex f-direction-column f-justify-between full-height"
+    >
+      <div>
+        <header>
+          <h1
+            class="movie-title"
+          >
+            Everything Everywhere All at Once
+          </h1>
+        </header>
+        <a
+          class="subtitle"
+          href="https://www.nytimes.com/2022/03/24/movies/everything-everywhere-all-at-once-review.html"
+          rel="noreferrer"
+          target="_blank"
+        >
+          Read the New York Times Review of Everything Everywhere All at Once
+        </a>
+        <p
+          class="movie-description"
+        >
+          Michelle Yeoh stars as a stressed-out laundromat owner dragged into cosmic battle and genre chaos.
+        </p>
+      </div>
+      <footer>
+        <span
+          class="date-movie"
+          data-testid="date-movie"
+        >
+          March 24, 2022
+        </span>
+      </footer>
+    </section>
+  </div>
+  <div>
+    <section
+      class="flex f-direction-column f-justify-between full-height"
+    >
+      <div>
+        <header>
+          <h1
+            class="movie-title"
+          >
+            Everything Everywhere All at Once
+          </h1>
+        </header>
+        <a
+          class="subtitle"
+          href="https://www.nytimes.com/2022/03/24/movies/everything-everywhere-all-at-once-review.html"
+          rel="noreferrer"
+          target="_blank"
+        >
+          Read the New York Times Review of Everything Everywhere All at Once
+        </a>
+        <p
+          class="movie-description"
+        >
+          Michelle Yeoh stars as a stressed-out laundromat owner dragged into cosmic battle and genre chaos.
+        </p>
+      </div>
+      <footer>
+        <span
+          class="date-movie"
+          data-testid="date-movie"
+        >
+          March 24, 2022
+        </span>
+      </footer>
+    </section>
+  </div>
+</body>
+`;

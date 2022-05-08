@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchBar renders correctly 1`] = `
+<body>
+  <div>
+    <div
+      class="search-bar-wrapper flex f-align-center f-justify-center"
+      data-testid="search-bar"
+    >
+      <img
+        alt="search icon"
+        src="http://localhost/search-icon-yellow.png"
+        width="25"
+      />
+      <input
+        placeholder="Search"
+        type="text"
+        value="test"
+      />
+    </div>
+  </div>
+  <div>
+    <div
+      class="search-bar-wrapper flex f-align-center f-justify-center"
+      data-testid="search-bar"
+    >
+      <img
+        alt="search icon"
+        src="http://localhost/search-icon-yellow.png"
+        width="25"
+      />
+      <input
+        placeholder="Search"
+        type="text"
+        value="test"
+      />
+    </div>
+  </div>
+</body>
+`;

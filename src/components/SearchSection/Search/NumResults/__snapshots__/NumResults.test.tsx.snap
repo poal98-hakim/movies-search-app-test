@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NumResults renders correctly 1`] = `
+<body>
+  <div>
+    <span
+      class="num-results-movies"
+    >
+      5
+       results
+    </span>
+  </div>
+  <div>
+    <span
+      class="num-results-movies"
+    >
+      5
+       results
+    </span>
+  </div>
+</body>
+`;

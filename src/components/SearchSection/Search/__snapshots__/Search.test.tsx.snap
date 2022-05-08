@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search renders correctly 1`] = `
+<body>
+  <div>
+    <div
+      class="flex f-align-center"
+    >
+      <input
+        class="button"
+        type="submit"
+        value="Search"
+      />
+      <span
+        class="num-results-movies"
+      >
+        5
+         results
+      </span>
+    </div>
+  </div>
+  <div>
+    <div
+      class="flex f-align-center"
+    >
+      <input
+        class="button"
+        type="submit"
+        value="Search"
+      />
+      <span
+        class="num-results-movies"
+      >
+        5
+         results
+      </span>
+    </div>
+  </div>
+</body>
+`;

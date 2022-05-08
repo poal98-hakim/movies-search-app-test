@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MovieDescription renders correctly 1`] = `
+<body>
+  <div>
+    <p
+      class="movie-description"
+    >
+      Michelle Yeoh stars as a stressed-out laundromat owner dragged into cosmic battle and genre chaos.
+    </p>
+  </div>
+  <div>
+    <p
+      class="movie-description"
+    >
+      Michelle Yeoh stars as a stressed-out laundromat owner dragged into cosmic battle and genre chaos.
+    </p>
+  </div>
+</body>
+`;

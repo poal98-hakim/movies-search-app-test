@@ -1,0 +1,112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MovieItem renders correctly 1`] = `
+<body>
+  <div>
+    <article
+      class="movie-item-wrapper"
+    >
+      <div
+        class="left-cont"
+      >
+        <img
+          alt="poster"
+          class="poster full-width"
+          src="https://static01.nyt.com/images/2022/03/24/arts/24everything-everywhere/merlin_204080367_730f3977-a2fa-425e-98db-01be8fecac21-mediumThreeByTwo440.jpg"
+        />
+      </div>
+      <div
+        class="right-cont"
+      >
+        <section
+          class="flex f-direction-column f-justify-between full-height"
+        >
+          <div>
+            <header>
+              <h1
+                class="movie-title"
+              >
+                Everything Everywhere All at Once
+              </h1>
+            </header>
+            <a
+              class="subtitle"
+              href="https://www.nytimes.com/2022/03/24/movies/everything-everywhere-all-at-once-review.html"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Read the New York Times Review of Everything Everywhere All at Once
+            </a>
+            <p
+              class="movie-description"
+            >
+              Michelle Yeoh stars as a stressed-out laundromat owner dragged into cosmic battle and genre chaos.
+            </p>
+          </div>
+          <footer>
+            <span
+              class="date-movie"
+              data-testid="date-movie"
+            >
+              March 24, 2022
+            </span>
+          </footer>
+        </section>
+      </div>
+    </article>
+  </div>
+  <div>
+    <article
+      class="movie-item-wrapper"
+    >
+      <div
+        class="left-cont"
+      >
+        <img
+          alt="poster"
+          class="poster full-width"
+          src="https://static01.nyt.com/images/2022/03/24/arts/24everything-everywhere/merlin_204080367_730f3977-a2fa-425e-98db-01be8fecac21-mediumThreeByTwo440.jpg"
+        />
+      </div>
+      <div
+        class="right-cont"
+      >
+        <section
+          class="flex f-direction-column f-justify-between full-height"
+        >
+          <div>
+            <header>
+              <h1
+                class="movie-title"
+              >
+                Everything Everywhere All at Once
+              </h1>
+            </header>
+            <a
+              class="subtitle"
+              href="https://www.nytimes.com/2022/03/24/movies/everything-everywhere-all-at-once-review.html"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Read the New York Times Review of Everything Everywhere All at Once
+            </a>
+            <p
+              class="movie-description"
+            >
+              Michelle Yeoh stars as a stressed-out laundromat owner dragged into cosmic battle and genre chaos.
+            </p>
+          </div>
+          <footer>
+            <span
+              class="date-movie"
+              data-testid="date-movie"
+            >
+              March 24, 2022
+            </span>
+          </footer>
+        </section>
+      </div>
+    </article>
+  </div>
+</body>
+`;

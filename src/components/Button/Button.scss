@@ -1,0 +1,15 @@
+@use '../../scss/base/colors.scss';
+
+$background-color-button:  #001e2d;
+
+.button{
+    width: 6em;
+    margin: 10px;
+    color: colors.$PRIMARY_COLOR;
+    background-color: $background-color-button;
+    cursor: pointer;
+    border-radius: 5px;
+    @media only screen and (max-width:1000px) {
+        font-size: 1.1em;
+    }
+}

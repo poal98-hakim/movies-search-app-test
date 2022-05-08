@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Spinner renders correctly 1`] = `
+<body>
+  <div>
+    <div
+      class="loader"
+      data-testid="loader"
+    />
+  </div>
+  <div>
+    <div
+      class="loader"
+      data-testid="loader"
+    />
+  </div>
+</body>
+`;

@@ -1,0 +1,25 @@
+@use '../../../scss/base/colors';
+
+.search-bar-wrapper{
+    width: 20em;
+    padding: 10px 0;
+    border-bottom: 2px solid;
+    color: colors.$PRIMARY_COLOR;
+
+    input {
+        border: 0;
+        outline: none;
+        color: colors.$PRIMARY_COLOR;
+        font-size: 1.2em;
+        margin-left: 10px;
+        font-weight: 900;
+        background-color: transparent;
+
+        &::placeholder {
+            opacity: .8;
+            color: colors.$PRIMARY_COLOR;
+            font-weight: 300;
+        }
+    }
+
+}

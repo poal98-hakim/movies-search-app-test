@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button renders correctly 1`] = `
+<body>
+  <div>
+    <input
+      class="button"
+      type="submit"
+      value="Search"
+    />
+  </div>
+  <div>
+    <input
+      class="button"
+      type="submit"
+      value="Search"
+    />
+  </div>
+</body>
+`;
